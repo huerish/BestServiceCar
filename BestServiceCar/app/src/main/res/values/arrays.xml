@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ciudades">
+        <item>Mérida</item>
+        <item>Campeche</item>
+        <item>Cancun</item>
+        <item>Ciudad de México</item>
+    </string-array>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BestServiceCar</string>
+    <string name="app_login">LOGIN</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="Gatos">Gatos</string>
+    <string name="Perros">Perros</string>
+    <string name="Peses">Peses</string>
+    <string name="pregunta">¿Que tipo de animal prefieres?</string>
+    <string name="preguntados">¿Te Gusta Comerlos</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="aveces">Aveces</string>
+    <string name="confirmar">Confirmar sus gustos</string>
+</resources>

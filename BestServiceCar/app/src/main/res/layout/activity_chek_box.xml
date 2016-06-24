@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:padding="10dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pregunta"/>
+    <CheckBox
+        android:id="@+id/checkboxDog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="@string/Perros"
+        android:onClick="selectFavAnimal"/>
+
+    <CheckBox
+        android:id="@+id/checkboxCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="@string/Gatos"
+        android:onClick="selectFavAnimal"/>
+
+    <CheckBox
+        android:id="@+id/checkboxFish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="@string/Peses"
+        android:onClick="selectFavAnimal"/>
+    <TextView
+        android:padding="10dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/preguntados"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_si"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/si"
+            android:onClick="selectRadioButtonClicked"/>
+
+        <RadioButton
+            android:id="@+id/radio_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no"
+            android:onClick="selectRadioButtonClicked"/>
+
+        <RadioButton
+            android:id="@+id/radio_aveces"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aveces"
+            android:onClick="selectRadioButtonClicked"/>
+    </RadioGroup>
+    <ToggleButton
+        android:id="@+id/togglebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="Si"
+        android:textOff="No"/>
+    <Switch
+        android:id="@+id/switchs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmar"
+        />
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hora"
+        android:onClick="showTimePickerDialog" />
+</LinearLayout>
